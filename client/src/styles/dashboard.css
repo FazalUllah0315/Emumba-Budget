@@ -1,0 +1,45 @@
+.dashboard-card {
+  padding: 2rem 10%;
+}
+.filter-btn {
+  background: #fcc315 !important;
+  color: #000;
+}
+.addEntry-btn {
+  background: #000 !important;
+  color: #fff;
+}
+
+.action-button-container {
+  width: 150px;
+  padding: 8px;
+}
+.dashboard-card .row {
+  margin-bottom: 16px;
+}
+
+.action-btn {
+  width: 100%;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+@media screen and (max-width: 900px) {
+  .dashboard-card {
+    padding: 2rem 5%;
+    transition: 0.4s;
+  }
+}
+@media screen and (max-width: 660px) {
+  .dashboard-card {
+    padding: 2rem 2%;
+    transition: 0.4s;
+  }
+}
+@media screen and (max-width: 560px) {
+  .dashboard-card .row {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}

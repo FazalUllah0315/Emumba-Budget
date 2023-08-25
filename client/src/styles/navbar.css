@@ -1,0 +1,32 @@
+.menu-bar {
+  padding: 0 9%;
+}
+.logo-container {
+  padding: 10px;
+}
+.logo-container .logo-icon {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.logo-container span {
+  font-weight: 500;
+}
+.sub-menu {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .menu-bar {
+    padding: 0 5%;
+    transition: 0.4s;
+  }
+}
+@media screen and (max-width: 660px) {
+  .menu-bar {
+    padding: 0 2%;
+    transition: 0.4s;
+  }
+}
